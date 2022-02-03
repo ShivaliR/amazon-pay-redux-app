@@ -6,7 +6,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc-iO3uoLpspqkJaPuDZYBlANzZ0APQhGmkqVkSV5crC5RJ7sc9EzVnKjnUjREfm59iQ&usqp=CAU" alt="" width="100" height="20"/>
+              <img src="https://s3-ap-southeast-1.amazonaws.com/p2swebsite/images/smeKhabar/news/AxisBank24thJuly_1500883592992_38.png" alt="" width="100" height="40"/>
            
           </a>
           <button
@@ -34,7 +34,7 @@ const Navbar = () => {
               </li>
             </ul>
             <button disabled={true} type="button" className="btn btn-light">
-              Your balance: $100
+              Your balance: $1000
             </button>
           </div>
         </div>

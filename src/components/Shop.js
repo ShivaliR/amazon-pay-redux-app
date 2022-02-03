@@ -3,15 +3,16 @@ import React from "react";
 const Shop = () => {
   return (
     <>
-      <img
-        src="https://m.media-amazon.com/images/I/61l9ppRIiqL._SL1500_.jpg"
-        alt=""
-        width="300px"
-      />
-      <div className="content-box my-4">
-        <div className="btn btn-secondary mx-4">-</div>
-        Add to cart
-        <div className="btn btn-secondary mx-4">+</div>
+      <div
+        className="card my-3"
+        style={{ width: "18rem"}}>
+            <img src="https://entrackr.com/wp-content/uploads/2017/10/axis-bank-money-image-2-1200x600.jpg" class="card-img-top" alt="..."></img>
+        <div className="card-body">
+          <h5 className="card-title">Deposit/Withdraw money</h5>
+          <div className="btn btn-secondary mx-2">-</div>
+          Update balance
+          <div className="btn btn-secondary mx-2">+</div>
+        </div>
       </div>
     </>
   );
